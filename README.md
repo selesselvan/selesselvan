@@ -26,7 +26,7 @@ My GitHub reflects my journey from data analysis, model building to deployment. 
 ## 🛠️ Tech Stack
 
 **Languages:**  
-Python • MATLAB  
+Python • MATLAB • SQL 
 
 **Frameworks & Libraries:**  
 FastAPI • TensorFlow • Scikit-Learn • StreamLit • HuggingFace Transformers
@@ -34,23 +34,27 @@ FastAPI • TensorFlow • Scikit-Learn • StreamLit • HuggingFace Transforme
 **Machine Learning:**  
 Deep Learning • NLP • LLM • RAG • Model Evaluation • NumPy • Pandas • Matplotlib 
 
-**Cloud Platforms:**  
-Google Cloud Platform (GCP) • BigQuery • Microsoft Azure (AZ-900, AI-900, DP-900)
+**Cloud Platforms:**   
+Google Cloud Platform (GCP) • BigQuery • Google Cloud Storage (GCS) • Microsoft Azure (AZ-900, AI-900, DP-900)
+
+**Data Engineering Tools:**  
+dbt • Terraform • Apache Parquet • Looker Studio
 
 **DevOps & Tools:**  
-Docker, Git, GitHub, JIRA, Slack, CI/CD  
+Docker • Git • GitHub • JIRA • Slack • CI/CD  
 
 **Databases:**  
-MySQL (SQL) • Neo4j (Graph) • Qdrant  
+MySQL (SQL) • Neo4j (Graph) • Qdrant • BigQuery (Cloud DWH) 
 
 ---
 
 ## 📌 Featured Projects
 
-### 🔹 **Master Thesis**  
-A prototypical implementation to compare AI-driven pricing models with traditional approaches in terms of profitability.
+### 🔹 **NYC Yellow Taxi Data Pipeline**
+This project addresses the challenge of analysing large-scale urban mobility data. NYC taxi trip records are publicly available but exist as scattered monthly files with no unified view. Using GCP, Terraform, Python, BigQuery, dbt and Looker Studio, the pipeline automates the collection, transformation and visualisation of 3 million trips, surfacing peak demand hours and fare trends through a live dashboard.
 
-[![View Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/selesselvan/Master-Thesis)
+[![View Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/selesselvan/nyc-taxi-data-pipeline)
+[![Live Dashboard](https://img.shields.io/badge/Looker%20Studio-Dashboard-green?logo=googleanalytics)](https://datastudio.google.com/reporting/74a7d549-84d4-4109-9e4c-a83bcfccb6f3)
 
 ---
 
@@ -58,6 +62,13 @@ A prototypical implementation to compare AI-driven pricing models with tradition
 This project helps users find the perfect recipe in seconds, using semantic search powered by vector embeddings and open-source LLMs.
 
 [![View Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/selesselvan/food-recipe-zoomcamp)
+
+---
+
+### 🔹 **Master Thesis**  
+A prototypical implementation to compare AI-driven pricing models with traditional approaches in terms of profitability.
+
+[![View Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/selesselvan/Master-Thesis)
 
 ---
 
